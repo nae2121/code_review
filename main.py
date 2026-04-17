@@ -5,7 +5,7 @@ DB_NAME = "sample.db"
 
 
 def init_db():
-    connn = sqlite3.connect(DB_NAME)
+    connnn = sqlite3.connect(DB_NAME)
     cur = conn.cursor()
     cur.execute("""
         CREATE TABLE IF NOT EXISTS users (
